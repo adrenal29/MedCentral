@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.nav{
+    display:flex;
+    background:#000033 ;
+    height:3rem;
+    
+}
+
+.menu{
+    display:flex;
+    margin-left: 5vw;
+    width:50vw;
+    
+    color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
+}
+.menu div{
+    margin-left: 2vw;
+    padding-top: 19px;
+    font-weight: 570;
+   
+}
+.opt{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.logo{
+ margin-left: 10vw;
+ font-weight: 600;
+
+padding-top: 15px;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-size: 23px;
+color: whitesmoke;
+}
+
+.login{
+    margin-left: 1vw;
+    
+   
+}
+.btn{
+    border: 1px solid blue;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.signup{
+    background: white;
+    border-radius: 3px;
+    width:6rem;
+    font-weight: 600;
+}
+.log{
+color: whitesmoke;
+width: 5rem;
+}
+.mobile-menu-icon{
+    display:none;
+}
+@media(max-width:772px){
+    
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin-left: 5vw;
+        font-weight: 600;
+        padding-top: 15px;
+       font-family: 'IBM Plex Sans Arabic', sans-serif;
+       font-size: 23px;
+       color: whitesmoke;
+       }
+      .nav{
+          width: 100vw;
+        
+      }
+      .signup{
+          display: none;
+      }
+      .log{
+          width: 4rem;
+          margin-left: 6rem;
+      }
+      .login{
+          margin-left: 3rem;
+          margin-top: 2px;
+      }
+    }

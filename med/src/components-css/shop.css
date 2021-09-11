@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.flexshop{
+    display: flex;
+    border: 1px solid whitesmoke;
+    margin:4rem 10rem;
+    border-radius:10px ;
+    height: 75vh;
+    
+    
+}
+ .shop{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000033;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 2rem;
+    margin-left: 33vw;
+}
+.i{
+height: 70%;
+width:50%;
+margin-top: -1.2rem;
+}
+.contentshop{
+    color: #000033;
+font-family: 'Noto Sans', sans-serif;
+width:50%;
+padding: 2rem;
+}
+.contentshop h3{
+    color: #000033;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 600;
+font-size: 25px;
+margin-top: 2rem;
+margin-left: 2rem;
+}
+.contentshop span{
+    color: rgba(2, 125, 156, 0.808);
+}
+.contentshop p{
+    margin-top: 4rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+.contentshop p ul{
+    list-style:none;
+    
+}
+.contentshop p ul li{
+    line-height: 40px;
+    color: rgb(77, 74, 74);
+}
+.sn{
+    background: rgba(2, 125, 156, 0.808);
+    border: none;
+    color: white;
+    margin-left: 2rem;
+    width: 7rem;
+    height: 2.5rem;
+}
+@media(max-width:772px){
+    .flexshop{
+        display:flex ;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-left: 1vw;
+        
+    }
+    .io{
+     display: none;
+
+        
+    }
+    .contentshop{
+        width: 100%;
+    }
+    .shop{
+        margin-left: 10vw;
+    }
+}

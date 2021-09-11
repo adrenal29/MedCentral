@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.work{
+    font-family: 'Noto Sans', sans-serif;
+    color:#000033;
+    margin-left:39vw;
+    margin-top:3rem;
+    font-size:25px;
+    font-weight: 800;
+}
+.work span{
+    color:rgba(2, 125, 156, 0.808);
+}
+.wrapper{
+    
+    max-width: 1080px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.wrapper .row{
+display: flex;
+justify-content: flex-start;
+}
+.wrapper .row section{
+    background: aliceblue;
+    border-radius: 5px;
+    width:calc(50% - 40px);
+    position: relative;
+    padding: 1rem;
+    line-height: 25px;
+    
+}
+.wrapper .center-line{
+    position: absolute;
+    height: 108%;
+    width: 4px;
+    background: #000061;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.wrapper .row-1{
+justify-content: flex-start;
+}
+.wrapper .row-2{
+    justify-content: flex-end;
+}
+.wrapper .row-3{
+    justify-content: flex-start;
+    }
+    .wrapper .row-4{
+        justify-content: flex-end;
+    }
+.wrapper .row section::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: aliceblue;
+    top:28px;
+    transform: rotate(45deg);
+}
+.row-1 section::before{
+    right:-7px;
+}
+.row-2 section::before{
+    left:-7px;
+}
+.row-3 section::before{
+    right:-7px;
+}
+.row-4 section::before{
+    left:-7px;
+}
+.row-5 section::before{
+    right:-7px;
+}
+.details{
+    font-weight: 800;
+    padding-bottom: 1rem;
+    
+}
+@media(max-width:772px){
+    .wrapper .center-line{
+        left: 30px;
+        height: 160%;
+    }
+    .wrapper .row{
+        margin: 30px 0px 3px 50px;
+    }
+    .wrapper .row section{
+        width: 100%;
+    }
+    .row-1 section::before{
+        left:-7px;
+    }
+    .work{
+        margin-left: 10vw;
+    }
+    .row-1 section::before{
+        left:-7px;
+    }
+    .row-2 section::before{
+        left:-7px;
+    }
+    .row-3 section::before{
+        left:-7px;
+    }
+    .row-4 section::before{
+        left:-7px;
+    }
+    .row-5 section::before{
+        left:-7px;
+    }
+}

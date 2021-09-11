@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.box{
+    border: 0.5px solid rgba(0, 0, 0, 0.301);
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10% 35%;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 5px;
+
+}
+.box h2{
+    padding: 10%;
+}
+.box p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
